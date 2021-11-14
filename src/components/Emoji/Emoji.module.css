@@ -1,0 +1,38 @@
+.emoji {
+    width: 15px;
+    height: 18px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;    
+    letter-spacing: 0.0016em;
+    color: #000000;
+    transition: all .2s ease;
+}
+.emoji:hover {
+    transform: translate(-6px, -14px);
+    font-size: 28px;
+}
+
+.tooltip {
+    background: black;
+    padding: 2px 8px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: -55px;
+    right: 3px;
+    color: white;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    width: fit-content;
+    display: none;
+}
+
+.emoji:hover .tooltip {
+    display: flex;
+}

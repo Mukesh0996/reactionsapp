@@ -1,0 +1,49 @@
+.user {
+    position: relative;
+    width: 392px;
+    height: 311px;
+    left: 0px;
+    top: 0px;
+    margin: 1rem;
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 20px;
+}
+.userImageContainer {
+   position: absolute;
+   width: 32px;
+    height: 32px;
+    left: 16px;
+    top: 50px;
+    border: 0.5px solid #FFFFFF;
+    box-sizing: border-box;
+}
+.userImageContainer img {
+  width: 32px;
+  height: 32px;
+}
+.fName {
+    position: absolute;
+    left: 60px;
+    top: 50px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.0016em;
+    color: #161616;
+
+}
+.lName {
+    position: absolute;
+    left: 60px;
+    top: 65px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.0016em;
+    color: #161616;
+
+}
