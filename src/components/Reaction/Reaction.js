@@ -6,9 +6,8 @@ import styles from './Reaction.module.css';
 
 const Reaction = ({user_id}) => {
 
-    let arr = [];
-    const ctx = useContext(StoreContext)
-    const { availableReactions, usersReactions, addReaction } = useContext(StoreContext);
+    let arr = [];   
+    const { availableReactions, usersReactions, addReaction, removeReaction } = useContext(StoreContext);
 
     let reactions = usersReactions.filter(userReaction => userReaction.user_id === user_id);
 
@@ -35,7 +34,7 @@ const Reaction = ({user_id}) => {
         }   else {
             let id = arr[existingReactionIndex(emoji)].id;
 
-           ctx.removeReaction(id);
+           removeReaction(id);
         } 
     };
     
