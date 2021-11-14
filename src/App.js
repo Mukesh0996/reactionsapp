@@ -17,7 +17,7 @@ function App() {
   },[]);
   
   if(filterUser) {
-    users = ctx.users.filter(user => user.id.toString() === "4");
+    users = ctx.users.filter(user => user.id === "4");
   }
   return (
     <div className="App">
