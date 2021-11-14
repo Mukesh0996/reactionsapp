@@ -1,5 +1,4 @@
 import { useContext, useEffect } from 'react';
-import { useState } from 'react/cjs/react.development';
 import './App.css';
 import User from './components/User/User';
 import { StoreContext } from './store/store';
