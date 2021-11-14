@@ -1,5 +1,4 @@
-import React from 'react';
-import { useContext } from 'react/cjs/react.development';
+import React, { useContext } from 'react';
 import { StoreContext } from '../../store/store';
 import Emoji from '../Emoji/Emoji';
 import styles from './Reaction.module.css';
